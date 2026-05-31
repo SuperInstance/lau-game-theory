@@ -1,0 +1,11 @@
+[package]
+name = "lau-game-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-game-theory"
+description = "Game theory — Nash equilibrium, minimax, Shapley value, mechanism design, evolutionary games"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
